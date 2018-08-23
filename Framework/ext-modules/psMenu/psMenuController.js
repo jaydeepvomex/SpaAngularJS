@@ -1,8 +1,8 @@
 ﻿"use strict";
 
 angular.module('psMenu').controller('psMenuController',
-    ['$scope',
-        function ($scope) {
+    ['$scope', '$rootScope',
+        function ($scope, $rootScope) {
 
             $scope.showMenu = true;
 
